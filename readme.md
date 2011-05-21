@@ -12,7 +12,8 @@ The downside of that approach is you can no longer 'unlisten' to it
 
 
 here is an example of using it
-    lhnot=require("LHNotifications")
+
+    require("LHNotifications")
     
     function a()	
     	print ("a")
@@ -25,7 +26,7 @@ here is an example of using it
     function c()
     	print ('c')
     end
-	require ("LHNotification")
+
 
     registerForNotification("A_NOTIFICATION",a)
     registerForNotification("B_NOTIFICATION",b)
