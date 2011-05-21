@@ -30,7 +30,7 @@ here is an example of using it
     removeFromNotification("A_NOTIFICATION",a)
     
     
-    postNotification("A_NOTIFICATION") -- print a
+    postNotification("A_NOTIFICATION") -- Nothing happens now
     postNotification("ABC_NOTIFICATION") -- print abc
 
 
